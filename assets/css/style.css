@@ -23,7 +23,7 @@ h2 {
     color: #000034;
     font-family: 'Abril Fatface', cursive;
 }
-#about-me, #education, #my-skills, #contact {
+#about-me, #education, #my-skills, #contact, .card-text {
     text-align: center;
     color: #000034;
     background-color: white;
@@ -41,7 +41,7 @@ h4 {
     font-family: 'Abril Fatface', cursive;
 }
 .list-inline-item {
-    font-size: 4rem;
+    font-size: 2rem;
 }
 .lead {
     color: white;
