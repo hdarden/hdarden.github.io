@@ -12,10 +12,12 @@ h1 {
     color: white;
     font-family: 'Abril Fatface', cursive;
 }
-.nav-link {
+.nav-link, a {
     color: white;
-    font-size: 2rem;
-    
+    font-size: 2rem; 
+}
+a:hover {
+    text-decoration: none;
 }
 h2 {
     font-size: 2rem;
@@ -23,7 +25,7 @@ h2 {
     color: #000034;
     font-family: 'Abril Fatface', cursive;
 }
-#about-me, #education {
+#about-me, #education, #my-skills {
     text-align: center;
     color: #000034;
     background-color: white;
@@ -39,10 +41,6 @@ h4 {
     color: #000034;
     font-family: 'Abril Fatface', cursive;
 }
-#my-skills {
-    color: #000034;
-    background-color: white;
-}
 .list-inline-item {
     font-size: 4rem;
 }
@@ -50,6 +48,11 @@ h4 {
     color: white;
     text-align: center;
     font-family: 'Abril Fatface', cursive;
+}
+#footer {
+    background-color: #000034;
+    color: white;
+    font-family: 'Playfair Display', serif;
 }
 
 /* @media (max-width: 500px){
