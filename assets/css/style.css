@@ -1,0 +1,50 @@
+body {
+    background-color: #000034;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    padding: 310px;
+    font-size: 5rem;
+}
+
+.container-nav {
+    color: white;
+    font-family: 'Abril Fatface', cursive;
+}
+.nav-link {
+    color: white;
+    font-size: 2rem;
+    
+}
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: #000034;
+    font-family: 'Abril Fatface', cursive;
+}
+#about-me {
+    text-align: center;
+    color: #000034;
+    background-color: white;
+    font-family: 'Playfair Display', serif;
+}
+#my-projects, .project-head {
+    background-color: white;
+    color: #000034;
+    padding: 20px
+}
+h4 {
+    text-align: center;
+    color: #000034;
+    font-family: 'Abril Fatface', cursive;
+}
+#my-skills {
+    color: #000034;
+    background-color: white;
+}
+.list-inline-item {
+    font-size: 4rem;
+}
