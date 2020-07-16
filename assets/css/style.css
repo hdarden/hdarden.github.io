@@ -1,7 +1,6 @@
 body {
     background-color: #000034;
 }
-
 h1 {
     color: white;
     text-align: center;
@@ -9,7 +8,6 @@ h1 {
     
     font-size: 5rem;
 }
-
 .container-nav {
     color: white;
     font-family: 'Abril Fatface', cursive;
@@ -25,13 +23,13 @@ h2 {
     color: #000034;
     font-family: 'Abril Fatface', cursive;
 }
-#about-me {
+#about-me, #education {
     text-align: center;
     color: #000034;
     background-color: white;
     font-family: 'Playfair Display', serif;
 }
-#my-projects, .project-head {
+#my-projects, .project-head, .education-head {
     background-color: white;
     color: #000034;
     padding: 20px
