@@ -1,11 +1,13 @@
 body {
     background-color: #000034;
 }
+p {
+    font-size: large;
+}
 h1 {
     color: white;
     text-align: center;
     font-family: 'Abril Fatface', cursive;
-    
     font-size: 5rem;
 }
 .navbar-custom, a {
@@ -18,7 +20,7 @@ a:hover {
     color: gray;
 }
 .index-jumbo {
-    margin-top: 200px;
+    margin-top: 300px;
     margin-bottom: 200px;
 }
 h2 {
@@ -57,11 +59,3 @@ h4 {
     color: white;
     font-family: 'Playfair Display', serif;
 }
-/* @media (max-width: 400px){
-    .navbar-custom {
-        exp
-    }
-} */
-/* @media (orientation: landscape) {
-
-} */
