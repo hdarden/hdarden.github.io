@@ -4,61 +4,230 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png" />
-    <link rel="manifest" href="../img/site.webmanifest"/>
-     <!-- Google Fonts -->
-     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
-     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
-     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../img/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../img/favicon-16x16.png"
+    />
+    <link rel="manifest" href="../img/site.webmanifest" />
+    <script
+      src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+      integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
+      crossorigin="anonymous"
+    />
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="../css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
     <title>Helen Darden Portfolio</title>
   </head>
   <body>
- <!-- Jumbotron -->
- <div class="container" id="heading">
-  <div class="row">
-    <div class="col-md-12">
-    <div class="jumbotron jumbotron-fluid">
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid p-4">
       <div class="container">
-        <h1>Helen Darden</h1>
+        <h1 class="display-4">Helen Darden</h1>
+        <p class="lead">Full Stack Web Developer</p>
       </div>
     </div>
-    </div>
-</div>
-</div>  
-<!-- Navbar -->
-<nav class="container-nav">
-<div class="row">
-  <div class="col-md-12">
-  <ul class="nav justify-content-center">
-    <li class="nav-item">
-      <a class="nav-link" href="../../index.html">About</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="projects.html">Projects</a>
-    </li>
-    <!-- <li class="nav-item">
-      <a class="nav-link" href="#">Contact</a>
-    </li> -->
-    <li class="nav-item">
-      <a class="nav-link" href="contact.html">Contact</a>
-    </li>
-  </ul>
-  </div>
-</div>
-</nav>
-<br>
-<br>
-<br>
-<br>
-
-
-<!-- Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
-  </body>
-</html>
+    <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-custom bg-light">
+      <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="./about.html">About</a>
+          <a class="nav-item nav-link" href="./education.html">Education</a>
+          <a class="nav-item nav-link" href="./projects.html">Projects</a>
+          <a class="nav-item nav-link" href="./skills.html">Skills</a>
+          <a class="nav-item nav-link" href="./contact.html">Contact</a>
+        </div>
+      </div>
+    </nav>
+    <br />
+    <br />
+      <!-- Projects Section -->
+      <section class="container-fluid" id="my-projects">
+        <div class="row projects-head">
+          <h2 class="project-head">Projects</h2>
+        </div>  
+        <div class="row projects">
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <a href="https://hdarden.github.io/INTown/" target="blank">
+                <img
+                  src="../img/F9749EA8-F884-4019-9E74-06F6AFF29217_1_105_c.jpeg"
+                  class="card-img rounded-0"
+                  alt="Project 1 img--INTown"
+                />
+              </a>
+              <div class="card-body">
+                <a href="https://github.com/hdarden/INTown" target="blank"
+              ><h4>INTown</h4></a
+            >
+                <p class="card-text">INTown is a front end web app that allows users from Charlotte, NC to
+                  explore different events, outdoor areas, popular places, and
+                  restaurants in their selected neighborhood. Google Maps and
+                  Ticketmaster APIs are implemented in into the app in order to
+                  request criteria for specific neighborhoods and deliver the
+                  informationto the user.</p>
+              </div>
+              </div>
+          </div>
+           <div class="col-md-4 mb-4">
+            <div class="card">
+              <a href="https://fast-beach-51043.herokuapp.com/" target="blank">
+                <img
+                  src="../img/50C6DB0C-FFAE-4748-9457-069AD94477FC_1_201_a.jpeg"
+                  class="card-img rounded-0"
+                  alt="Project 2 School Spot"
+                />
+              </a>
+              <div class="card-body">
+                <a href="https://github.com/hdarden/School-Spot" target="blank"
+                ><h4>School Spot</h4></a
+              >
+                <p class="card-text">This web app utilizes both front-end and back-end technology to cultivate a
+                  user experience that stores information within a MySQL database.
+                  School-Spot allows teachers to post assignments and grades and
+                  students to keep track of assignments, due dates, and grades.</p>
+              </div>
+              </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <a href="https://scheduleme-mobile.herokuapp.com/login" target="blank">
+                <img
+                  src="../img/3F433DBF-C089-4B85-933E-32AD8C43F3F7_1_201_a.jpeg"
+                  class="card-img rounded-0"
+                  alt="Project 3 Schedule-Me"
+                />
+              </a>
+              <div class="card-body">
+                <a href="https://github.com/hdarden/schedule-me" target="blank"
+                ><h4>Schedule-Me</h4></a
+              >
+                <p class="card-text">Schedule-Me is a React.js application that allows clients to view,
+                  request, and confirm appointments by viewing availability of a
+                  given business or contractor. With hope of omitting or limiting
+                  the number of patrons and exposure time in what is normally
+                  considered "waiting areas", Schedule-Me is designed to 
+                  reduce the chance of infection rates.</p>
+              </div>
+              </div>
+              </div>
+          </div>
+        <!-- Row 2 of projects -->
+        <div class="row projects justify-content-center">
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <a href="https://arcane-wave-65165.herokuapp.com/" target="blank">
+                <img
+                  src="../img/77C7FF12-F910-4C62-95A0-9B6EF434A5AA_1_105_c.jpeg"
+                  class="card-img-top"
+                  alt="First full stack web app--burger Logger"
+                />
+              </a>
+              <div class="card-body">
+                <a href="https://github.com/hdarden/Burger-Logger" target="blank"
+              ><h4>Burger Logger</h4></a
+            >
+                <p class="card-text"> This Burger-Logger represents my first full stack web app. It implements MySQL,
+                  Express, Handlebars, and a homemade ORM to allow the user to create
+                  a burger, add it the the burger logger, and choose a burger to
+                  devour.</p>
+              </div>
+              </div>
+              </div>
+  
+              <div class="col-md-4 mb-4">
+                <div class="card">
+                  <a href="https://hdarden.github.io/Weather-Dashboard/" target="blank">
+                    <img
+                      src="../img/E2755C25-CD8F-4A55-A111-CD8AC7C4D88F_1_201_a.jpeg"
+                      class="card-img rounded-0"
+                      alt="weather dashboard"
+                    />
+                  </a>
+                  <div class="card-body">
+                    <a href="https://github.com/hdarden/Weather-Dashboard" target="blank"
+              ><h4>Weather Dashboard</h4></a
+            >
+                    <p class="card-text"> This Weather DashBoard utilizes the OpenWeather API to retrieve data for searched cites.
+                      This app features HTML and CSS that is dynamically updated using
+                      jQuery.</p>
+                  </div>
+                  </div>
+                  </div>
+              <div class="col-md-4 mb-4">
+                <div class="card">
+                  <a href="https://drive.google.com/file/d/1lV3s5tGY8JhTBoKPVKqUBlXtbRL_qv6c/view" target="blank">
+                    <img
+                      src="../img/6599367E-EA27-4924-B251-221BBE154ADA_1_201_a.jpeg"
+                      class="card-img rounded-0"
+                      alt="Team profile generator"
+                    />
+                  </a>
+                  <div class="card-body">
+                    <a href="https://github.com/hdarden/Weather-Dashboard" target="blank"
+                    ><h4>Team Profile Generator</h4></a
+                  >
+                    <p class="card-text">This is a back back-end Node CLI that uses npm inquirer to take in information about
+                      employees and uses npm fs to generate an HTML webpage that displays
+                      summaries for each person. The Team Profile Generator includes unit tests in
+                      order to build better program design of the Team Profile Generator.</p>
+                  </div>
+                  </div>
+              </div>
+        </div>
+      </section>
+      <br>
+      <br>
+      <br>
+    <section class="container-fluid p-2 text-center" id="footer">
+        <footer className="card-footer ">
+           &copy; Helen Darden
+       </footer>
+     </section>
+     <!-- Bootstrap JS-->
+     <script
+       src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+       integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+       crossorigin="anonymous"
+     ></script>
+     <script
+       src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+       integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+       crossorigin="anonymous"
+     ></script>
+   </body>
+ </html>
