@@ -8,10 +8,13 @@ h1 {
     
     font-size: 5rem;
 }
-.nav-item, a {
+.navbar-custom, a {
     color: #000034;
     font-size: 1.5rem; 
     font-family: 'Playfair Display', serif;
+}
+.navbar-toggler {
+    
 }
 a:hover {
     text-decoration: none;
